@@ -8,7 +8,7 @@ function Main() {
       <section className="main-section">
         <div className="bg" />
         <div className="content">
-<img src="https://pngimg.com/d/fcb_logo_PNG18.png" className="main-logo-img" />
+<img src="https://pngimg.com/d/fcb_logo_PNG18.png" alt="logo" className="main-logo-img" />
           <h1 className="title">VISCA BARÇA</h1>
           <p className="title2">Ultimate Team 2026</p>
         </div>
