@@ -29,18 +29,18 @@ function Footer() {
 
         <div className="footer-links">
           <h4 className="footer-links-title">QUICK LINKS</h4>
-          <a  href="#" className="footer-link">About Club</a>
-          <a href="#" className="footer-link">News</a>
-          <a  href="#" className="footer-link">Tickets</a>
-          <a href="#" className="footer-link">Shop</a>
+          <a  href="/" className="footer-link">About Club</a>
+          <a href="/" className="footer-link">News</a>
+          <a  href="/" className="footer-link">Tickets</a>
+          <a href="/" className="footer-link">Shop</a>
         </div>
 
         <div className="footer-links">
           <h4 className="footer-links-title">TEAMS</h4>
-          <a  href="#" className="footer-link">First Team</a>
-          <a href="#" className="footer-link">Academy</a>
-          <a href="#" className="footer-link">Women</a>
-          <a href="#" className="footer-link">Legends</a>
+          <a  href="/" className="footer-link">First Team</a>
+          <a href="/" className="footer-link">Academy</a>
+          <a href="/" className="footer-link">Women</a>
+          <a href="/" className="footer-link">Legends</a>
         </div>
 
         <div className="footer-links">
@@ -66,9 +66,9 @@ function Footer() {
       <div className="footer-bottom">
         <span className="footer-copy">© 2026 FC Barcelona Ultimate Team. All rights reserved.</span>
         <div className="footer-legal">
-          <a href="#" className="footer-legal-link">Privacy Policy</a>
-          <a href="#" className="footer-legal-link">Terms of Service</a>
-          <a href="#" className="footer-legal-link">Cookie Policy</a>
+          <a href="/" className="footer-legal-link">Privacy Policy</a>
+          <a href="/" className="footer-legal-link">Terms of Service</a>
+          <a href="/" className="footer-legal-link">Cookie Policy</a>
         </div>
       </div>
 
