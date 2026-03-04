@@ -7,18 +7,6 @@ body {
   min-height: 100vh;
 }
 
-.App { padding: 40px 20px; }
-
-.App-title {
-  text-align: center;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 3rem;
-  letter-spacing: 6px;
-  color: #d4a843;
-  text-shadow: 0 0 30px rgba(212,168,67,0.5);
-  margin-bottom: 40px;
-}
-
 .parent {
   display: flex;
   justify-content: center;
@@ -234,3 +222,13 @@ body {
   color: rgba(255,210,100,0.5);
   text-transform: uppercase;
 }
+
+.logo-img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.main-logo-img {
+width: 251px;
+  height: auto;}

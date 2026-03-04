@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Playerlist from './component/Playerlist';
+import Navbar from './component/Navbar';
+import Main from './component/Main';
+import Footer from './component/Footer';
 
 
 function App() {
@@ -46,7 +49,13 @@ let players = [
 
 
 
-  return <div className="App">   <Playerlist players={players}/> </div>;
+  return <div className="App">   
+    <Navbar />
+        <Main />
+        <Playerlist players={players}/>
+        <br /><br />
+        <Footer /> </div>;
+
 
 }
 

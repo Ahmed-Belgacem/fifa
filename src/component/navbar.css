@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Rajdhani:wght@500;600;700&display=swap');
+
+.navbar {
+  background: #0d1117;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-inside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  height: 72px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo-img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+}
+
+.navbar-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.navbar-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+  line-height: 1;
+}
+
+.navbar-title2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #f5d800;
+  letter-spacing: 1px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  background: transparent;
+  border: none;
+  color: #8892a4;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  white-space: nowrap;
+  
+}
+
+.link:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.link.active {
+  color: #ffffff;
+}
+
+.icon {
+  font-size: 15px;
+  opacity: 0.85;
+}
+
+.navbar-btn {
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #a50044, #f5d800);
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+
+  white-space: nowrap;
+
+}
+
+.navbar-btn:hover {
+  transform: translateY(-2px);
+
+}
+
+.stroke {
+  height: 2px;
+  background: linear-gradient(90deg, #004d98, #a50044, #f5d800);
+}
