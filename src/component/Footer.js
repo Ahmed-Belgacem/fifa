@@ -17,7 +17,7 @@ function Footer() {
             </div>
           </div>
           <p className="desc">
-            More than a club. Experience the legendary FC Barcelona with our FIFA Ultimate Team inspired platform.
+            More than a club. Experience the legendary FC Barcelona.
           </p>
           <div className="footer-socials">
             <div className="social-btn">f</div>
