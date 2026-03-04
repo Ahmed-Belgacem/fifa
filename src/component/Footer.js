@@ -10,7 +10,7 @@ function Footer() {
 
         <div className="footer-log">
           <div className="footer-logo">
-  <img src="https://pngimg.com/d/fcb_logo_PNG18.png" className="logo-img" />
+  <img src="https://pngimg.com/d/fcb_logo_PNG18.png" alt="logo" className="logo-img" />
             <div className="footer-text">
               <span className="footer-club">FC BARCELONA</span>
               <span className="footer-sub">Ultimate Team</span>
@@ -29,22 +29,22 @@ function Footer() {
 
         <div className="footer-links">
           <h4 className="footer-links-title">QUICK LINKS</h4>
-          <a className="footer-link">About Club</a>
-          <a className="footer-link">News</a>
-          <a className="footer-link">Tickets</a>
-          <a className="footer-link">Shop</a>
+          <a  href="#" className="footer-link">About Club</a>
+          <a href="#" className="footer-link">News</a>
+          <a  href="#" className="footer-link">Tickets</a>
+          <a href="#" className="footer-link">Shop</a>
         </div>
 
         <div className="footer-links">
           <h4 className="footer-links-title">TEAMS</h4>
-          <a className="footer-link">First Team</a>
-          <a className="footer-link">Academy</a>
-          <a className="footer-link">Women</a>
-          <a className="footer-link">Legends</a>
+          <a  href="#" className="footer-link">First Team</a>
+          <a href="#" className="footer-link">Academy</a>
+          <a href="#" className="footer-link">Women</a>
+          <a href="#" className="footer-link">Legends</a>
         </div>
 
         <div className="footer-links">
-          <h4 className="footer-links-title">CONTACT</h4>
+          <h4  className="footer-links-title">CONTACT</h4>
           <div className="footer-contact-item">
             <span className="contact-icon">📍</span>
             <span>Camp Nou, Barcelona, Spain</span>
@@ -66,9 +66,9 @@ function Footer() {
       <div className="footer-bottom">
         <span className="footer-copy">© 2026 FC Barcelona Ultimate Team. All rights reserved.</span>
         <div className="footer-legal">
-          <a className="footer-legal-link">Privacy Policy</a>
-          <a className="footer-legal-link">Terms of Service</a>
-          <a className="footer-legal-link">Cookie Policy</a>
+          <a href="#" className="footer-legal-link">Privacy Policy</a>
+          <a href="#" className="footer-legal-link">Terms of Service</a>
+          <a href="#" className="footer-legal-link">Cookie Policy</a>
         </div>
       </div>
 
