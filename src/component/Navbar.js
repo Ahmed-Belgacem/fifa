@@ -7,7 +7,7 @@ function Navbar() {
       <div className="navbar-inside">
 
         <div className="navbar-logo">
-<img src="https://pngimg.com/d/fcb_logo_PNG18.png" className="logo-img" />
+<img src="https://pngimg.com/d/fcb_logo_PNG18.png" alt="logo" className="logo-img" />
           <div className="navbar-text">
             <span className="navbar-title">FC BARCELONA</span>
             <span className="navbar-title2">Ultimate Team</span>
